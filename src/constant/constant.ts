@@ -1,7 +1,11 @@
 /* eslint-disable prettier/prettier */
 export const enum SCREENS {
-  SPLASHSCREEN = 'SPLASHSCREEN',
-  HOME = 'HOME',
+    SPLASHSCREEN = 'SPLASHSCREEN',
+    TAB = 'TAB',
+    HOME = 'HOME',
+    SEARCH = 'SEARCH',
+    SETTING = 'SETTING',
+    BOOKMARK = 'BOOKMARK'
 }
 
 export const TEXT = {
@@ -13,13 +17,20 @@ export const IMAGES =  {
   backgroundSlashScreen: require("../images/splashscreen.jpg"),
 };
 
+export const ICONS = {
+    home: require('../images/home-icon.png'),
+    search: require('../images/search-icon.png'),
+    bookmark: require('../images/bookmark-icon.png'),
+    setting: require('../images/setting-icon.png')
+}
+
 export const COLORS = {
-  black : '#000000',
-  transparent: 'transparent',
-  white: '#FFFFFF',
-  primary: '#11b88f',
-  gray: '#CCC',
-};
+    black: '#000000',
+    transparent: 'transparent',
+    gray: '#CCC',
+    white: '#FFFFFF',
+    primary: '#11b88f'
+}
 
 export const SIZES = {
   paddingLarge: 32,

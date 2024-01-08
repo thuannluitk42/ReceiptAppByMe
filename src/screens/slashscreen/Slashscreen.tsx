@@ -14,11 +14,11 @@ export default function SlashScreen() {
       {/* <Image source={imgLogo}/> */}
       <LinearGradient style={style.absolute} colors={[COLORS.transparent, COLORS.black]}>
         <View style={[style.containerContent]}>
-          <Text style = {[style.title]}>Cooking a Delicious Food Easily</Text>
+          <Text style = {style.title}>Cooking a Delicious Food Easily</Text>
           <Text style= {style.subTitle}>Discover more than 1200 food recipts in your hands and cooking it easily</Text>
-        </View>
         <PrimaryButton style={style.mtLarge} title = {TEXT.LOGIN} />
         <OutlineButton style={style.mtSmall} title = {TEXT.SIGNUP} />
+        </View>
       </LinearGradient>
     </View>
   );

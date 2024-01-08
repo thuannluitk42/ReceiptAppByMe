@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import {NativeStackScreenProps} from '@react-navigation/native-stack';
+import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import {SCREENS} from '../constant/constant';
 import {RouteProp} from '@react-navigation/native';
 
