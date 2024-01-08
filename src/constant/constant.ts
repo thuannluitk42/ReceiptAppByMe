@@ -6,11 +6,11 @@ export const enum SCREENS {
 
 export const TEXT = {
   LOGIN : 'LOGIN',
-  SIGNUP: 'SIGNUP'
-}
+  SIGNUP: 'SIGNUP',
+};
 
 export const IMAGES =  {
-  backgroundSlashScreen: require('../images/splashscreen.jpg'),
+  backgroundSlashScreen: require("../images/splashscreen.jpg"),
 };
 
 export const COLORS = {

@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable prettier/prettier */
 import {Text, ViewStyle} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';

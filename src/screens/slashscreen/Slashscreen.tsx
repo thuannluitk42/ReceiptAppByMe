@@ -6,17 +6,19 @@ import LinearGradient from 'react-native-linear-gradient';
 import { style } from './Style';
 import { OutlineButton, PrimaryButton } from '../../components/CustomButton';
 
+const imgLogo = require("../../images/splashscreen.jpg")
 export default function SlashScreen() {
   return (
     <View>
-      <Image src= {IMAGES.backgroundSlashScreen} resizeMode='repeat'/>
+      <Image source={imgLogo} resizeMode="cover"/>
+      {/* <Image source={imgLogo}/> */}
       <LinearGradient style={style.absolute} colors={[COLORS.transparent, COLORS.black]}>
-        <View style={[style.absolute, style.containerContent]}>
-          <Text style = {style.title}>Cooking a Delicious Food Easily</Text>
+        <View style={[style.containerContent]}>
+          <Text style = {[style.title]}>Cooking a Delicious Food Easily</Text>
           <Text style= {style.subTitle}>Discover more than 1200 food recipts in your hands and cooking it easily</Text>
         </View>
-        <PrimaryButton style={style.mtLarge} title = {TEXT.LOGIN}></PrimaryButton>
-        <OutlineButton style={style.mtSmall} title = {TEXT.SIGNUP}></OutlineButton>
+        <PrimaryButton style={style.mtLarge} title = {TEXT.LOGIN} />
+        <OutlineButton style={style.mtSmall} title = {TEXT.SIGNUP} />
       </LinearGradient>
     </View>
   );

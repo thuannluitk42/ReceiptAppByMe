@@ -18,7 +18,7 @@ export const style = StyleSheet.create({
     height: '100%',
   },
   containerContent: {
-    height: 400,
+    height: 500,
     bottom: 0,
     padding:SIZES.paddingLarge,
   },
