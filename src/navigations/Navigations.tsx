@@ -2,7 +2,7 @@
 /* eslint-disable prettier/prettier */
 import {createStackNavigator} from '@react-navigation/stack';
 import {SCREENS} from '../constant/constant';
-import SlashScreen from '../screens/slashscreen/Slashscreen';
+import SlashScreen from '../screens/slashscreen/SlashScreen';
 import Home from '../screens/home/Home';
 
 const Stack = createStackNavigator();
